@@ -1,0 +1,940 @@
+"src/typecheck.ml" 10 255 263 "src/typecheck.ml" 10 255 277
+type(
+  Type.t String.Map.t -> Expr.t -> (Type.t, string) result
+)
+ident(
+  def typecheck_term "src/typecheck.ml" 10 255 255 "src/typecheck.ml" 1 0 -1
+)
+"src/typecheck.ml" 10 255 279 "src/typecheck.ml" 10 255 282
+type(
+  Type.t String.Map.t
+)
+ident(
+  def env "src/typecheck.ml" 10 255 306 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 10 255 307 "src/typecheck.ml" 10 255 308
+type(
+  Expr.t
+)
+ident(
+  def e "src/typecheck.ml" 10 255 319 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 11 349 357 "src/typecheck.ml" 11 349 358
+type(
+  Expr.t
+)
+ident(
+  int_ref e "src/typecheck.ml" 10 255 307 "src/typecheck.ml" 10 255 308
+)
+"src/typecheck.ml" 12 364 377 "src/typecheck.ml" 12 364 378
+type(
+  int
+)
+"src/typecheck.ml" 12 364 368 "src/typecheck.ml" 12 364 378
+type(
+  Expr.t
+)
+"src/typecheck.ml" 12 364 385 "src/typecheck.ml" 12 364 393
+type(
+  Type.t
+)
+"src/typecheck.ml" 12 364 382 "src/typecheck.ml" 12 364 393
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 13 394 410 "src/typecheck.ml" 13 394 411
+type(
+  Expr.binop
+)
+"src/typecheck.ml" 13 394 413 "src/typecheck.ml" 13 394 415
+type(
+  Expr.t
+)
+ident(
+  def e1 "src/typecheck.ml" 14 424 428 "src/typecheck.ml" 20 588 650
+)
+"src/typecheck.ml" 13 394 417 "src/typecheck.ml" 13 394 419
+type(
+  Expr.t
+)
+ident(
+  def e2 "src/typecheck.ml" 14 424 428 "src/typecheck.ml" 20 588 650
+)
+"src/typecheck.ml" 13 394 398 "src/typecheck.ml" 13 394 420
+type(
+  Expr.t
+)
+"src/typecheck.ml" 14 424 428 "src/typecheck.ml" 14 424 442
+type(
+  Type.t String.Map.t -> Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck_term "src/typecheck.ml" 10 255 263 "src/typecheck.ml" 10 255 277
+)
+"src/typecheck.ml" 14 424 443 "src/typecheck.ml" 14 424 446
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typecheck.ml" 10 255 279 "src/typecheck.ml" 10 255 282
+)
+"src/typecheck.ml" 14 424 447 "src/typecheck.ml" 14 424 449
+type(
+  Expr.t
+)
+ident(
+  int_ref e1 "src/typecheck.ml" 13 394 413 "src/typecheck.ml" 13 394 415
+)
+"src/typecheck.ml" 14 424 428 "src/typecheck.ml" 14 424 449
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 15 450 454 "src/typecheck.ml" 15 450 457
+type(
+  (Type.t, string) result ->
+  (Type.t -> (Type.t, string) result) -> (Type.t, string) result
+)
+ident(
+  int_ref Core.Result.Monad_infix.( >>= ) "src/monad_intf.ml" 113 3650 3652 "src/monad_intf.ml" 113 3650 3710
+)
+"src/typecheck.ml" 15 450 462 "src/typecheck.ml" 15 450 466
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typecheck.ml" 16 470 474 "src/typecheck.ml" 20 588 650
+)
+"src/typecheck.ml" 16 470 474 "src/typecheck.ml" 16 470 488
+type(
+  Type.t String.Map.t -> Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck_term "src/typecheck.ml" 10 255 263 "src/typecheck.ml" 10 255 277
+)
+"src/typecheck.ml" 16 470 489 "src/typecheck.ml" 16 470 492
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typecheck.ml" 10 255 279 "src/typecheck.ml" 10 255 282
+)
+"src/typecheck.ml" 16 470 493 "src/typecheck.ml" 16 470 495
+type(
+  Expr.t
+)
+ident(
+  int_ref e2 "src/typecheck.ml" 13 394 417 "src/typecheck.ml" 13 394 419
+)
+"src/typecheck.ml" 16 470 474 "src/typecheck.ml" 16 470 495
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 17 496 500 "src/typecheck.ml" 17 496 503
+type(
+  (Type.t, string) result ->
+  (Type.t -> (Type.t, string) result) -> (Type.t, string) result
+)
+ident(
+  int_ref Core.Result.Monad_infix.( >>= ) "src/monad_intf.ml" 113 3650 3652 "src/monad_intf.ml" 113 3650 3710
+)
+"src/typecheck.ml" 17 496 508 "src/typecheck.ml" 17 496 512
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typecheck.ml" 18 516 520 "src/typecheck.ml" 20 588 650
+)
+"src/typecheck.ml" 18 516 528 "src/typecheck.ml" 18 516 532
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typecheck.ml" 15 450 462 "src/typecheck.ml" 15 450 466
+)
+"src/typecheck.ml" 18 516 534 "src/typecheck.ml" 18 516 538
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typecheck.ml" 17 496 508 "src/typecheck.ml" 17 496 512
+)
+"src/typecheck.ml" 18 516 527 "src/typecheck.ml" 18 516 539
+type(
+  Type.t * Type.t
+)
+"src/typecheck.ml" 19 545 553 "src/typecheck.ml" 19 545 561
+type(
+  Type.t
+)
+"src/typecheck.ml" 19 545 563 "src/typecheck.ml" 19 545 571
+type(
+  Type.t
+)
+"src/typecheck.ml" 19 545 552 "src/typecheck.ml" 19 545 572
+type(
+  Type.t * Type.t
+)
+"src/typecheck.ml" 19 545 579 "src/typecheck.ml" 19 545 587
+type(
+  Type.t
+)
+"src/typecheck.ml" 19 545 576 "src/typecheck.ml" 19 545 587
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 20 588 595 "src/typecheck.ml" 20 588 596
+type(
+  Type.t * Type.t
+)
+"src/typecheck.ml" 20 588 606 "src/typecheck.ml" 20 588 649
+type(
+  string
+)
+"src/typecheck.ml" 20 588 600 "src/typecheck.ml" 20 588 649
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 18 516 520 "src/typecheck.ml" 20 588 650
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 17 496 504 "src/typecheck.ml" 20 588 650
+type(
+  Type.t -> (Type.t, string) result
+)
+"src/typecheck.ml" 16 470 474 "src/typecheck.ml" 20 588 650
+call(
+  tail
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 15 450 458 "src/typecheck.ml" 20 588 650
+type(
+  Type.t -> (Type.t, string) result
+)
+"src/typecheck.ml" 14 424 428 "src/typecheck.ml" 20 588 650
+call(
+  tail
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 21 651 664 "src/typecheck.ml" 21 651 665
+type(
+  string
+)
+ident(
+  def x "src/typecheck.ml" 21 651 669 "src/typecheck.ml" 21 651 688
+)
+"src/typecheck.ml" 21 651 655 "src/typecheck.ml" 21 651 665
+type(
+  Expr.t
+)
+"src/typecheck.ml" 21 651 669 "src/typecheck.ml" 21 651 674
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 21 651 675 "src/typecheck.ml" 21 651 688
+type(
+  exn
+)
+"src/typecheck.ml" 21 651 669 "src/typecheck.ml" 21 651 688
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 22 689 702 "src/typecheck.ml" 22 689 703
+type(
+  string
+)
+ident(
+  def x "src/typecheck.ml" 22 689 721 "src/typecheck.ml" 22 689 740
+)
+"src/typecheck.ml" 22 689 705 "src/typecheck.ml" 22 689 712
+type(
+  Type.t
+)
+ident(
+  def arg_tau "src/typecheck.ml" 22 689 721 "src/typecheck.ml" 22 689 740
+)
+"src/typecheck.ml" 22 689 714 "src/typecheck.ml" 22 689 716
+type(
+  Expr.t
+)
+ident(
+  def e' "src/typecheck.ml" 22 689 721 "src/typecheck.ml" 22 689 740
+)
+"src/typecheck.ml" 22 689 693 "src/typecheck.ml" 22 689 717
+type(
+  Expr.t
+)
+"src/typecheck.ml" 22 689 721 "src/typecheck.ml" 22 689 726
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 22 689 727 "src/typecheck.ml" 22 689 740
+type(
+  exn
+)
+"src/typecheck.ml" 22 689 721 "src/typecheck.ml" 22 689 740
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 23 741 755 "src/typecheck.ml" 23 741 757
+type(
+  Expr.t
+)
+ident(
+  def fn "src/typecheck.ml" 23 741 767 "src/typecheck.ml" 23 741 786
+)
+"src/typecheck.ml" 23 741 759 "src/typecheck.ml" 23 741 762
+type(
+  Expr.t
+)
+ident(
+  def arg "src/typecheck.ml" 23 741 767 "src/typecheck.ml" 23 741 786
+)
+"src/typecheck.ml" 23 741 745 "src/typecheck.ml" 23 741 763
+type(
+  Expr.t
+)
+"src/typecheck.ml" 23 741 767 "src/typecheck.ml" 23 741 772
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 23 741 773 "src/typecheck.ml" 23 741 786
+type(
+  exn
+)
+"src/typecheck.ml" 23 741 767 "src/typecheck.ml" 23 741 786
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 24 787 802 "src/typecheck.ml" 24 787 804
+type(
+  Expr.t
+)
+ident(
+  def e1 "src/typecheck.ml" 24 787 813 "src/typecheck.ml" 24 787 832
+)
+"src/typecheck.ml" 24 787 806 "src/typecheck.ml" 24 787 808
+type(
+  Expr.t
+)
+ident(
+  def e2 "src/typecheck.ml" 24 787 813 "src/typecheck.ml" 24 787 832
+)
+"src/typecheck.ml" 24 787 791 "src/typecheck.ml" 24 787 809
+type(
+  Expr.t
+)
+"src/typecheck.ml" 24 787 813 "src/typecheck.ml" 24 787 818
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 24 787 819 "src/typecheck.ml" 24 787 832
+type(
+  exn
+)
+"src/typecheck.ml" 24 787 813 "src/typecheck.ml" 24 787 832
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 25 833 851 "src/typecheck.ml" 25 833 852
+type(
+  Expr.t
+)
+ident(
+  def e "src/typecheck.ml" 25 833 860 "src/typecheck.ml" 25 833 879
+)
+"src/typecheck.ml" 25 833 854 "src/typecheck.ml" 25 833 855
+type(
+  Expr.direction
+)
+ident(
+  def d "src/typecheck.ml" 25 833 860 "src/typecheck.ml" 25 833 879
+)
+"src/typecheck.ml" 25 833 837 "src/typecheck.ml" 25 833 856
+type(
+  Expr.t
+)
+"src/typecheck.ml" 25 833 860 "src/typecheck.ml" 25 833 865
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 25 833 866 "src/typecheck.ml" 25 833 879
+type(
+  exn
+)
+"src/typecheck.ml" 25 833 860 "src/typecheck.ml" 25 833 879
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 26 880 897 "src/typecheck.ml" 26 880 898
+type(
+  Expr.t
+)
+ident(
+  def e "src/typecheck.ml" 26 880 911 "src/typecheck.ml" 26 880 930
+)
+"src/typecheck.ml" 26 880 900 "src/typecheck.ml" 26 880 901
+type(
+  Expr.direction
+)
+ident(
+  def d "src/typecheck.ml" 26 880 911 "src/typecheck.ml" 26 880 930
+)
+"src/typecheck.ml" 26 880 903 "src/typecheck.ml" 26 880 906
+type(
+  Type.t
+)
+ident(
+  def tau "src/typecheck.ml" 26 880 911 "src/typecheck.ml" 26 880 930
+)
+"src/typecheck.ml" 26 880 884 "src/typecheck.ml" 26 880 907
+type(
+  Expr.t
+)
+"src/typecheck.ml" 26 880 911 "src/typecheck.ml" 26 880 916
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 26 880 917 "src/typecheck.ml" 26 880 930
+type(
+  exn
+)
+"src/typecheck.ml" 26 880 911 "src/typecheck.ml" 26 880 930
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 27 931 946 "src/typecheck.ml" 27 931 947
+type(
+  Expr.t
+)
+ident(
+  def e "src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 27 931 950 "src/typecheck.ml" 27 931 952
+type(
+  string
+)
+ident(
+  def x1 "src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 27 931 954 "src/typecheck.ml" 27 931 956
+type(
+  Expr.t
+)
+ident(
+  def e1 "src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 27 931 949 "src/typecheck.ml" 27 931 957
+type(
+  string * Expr.t
+)
+"src/typecheck.ml" 27 931 960 "src/typecheck.ml" 27 931 962
+type(
+  string
+)
+ident(
+  def x2 "src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 27 931 964 "src/typecheck.ml" 27 931 966
+type(
+  Expr.t
+)
+ident(
+  def e2 "src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 991
+)
+"src/typecheck.ml" 27 931 959 "src/typecheck.ml" 27 931 967
+type(
+  string * Expr.t
+)
+"src/typecheck.ml" 27 931 935 "src/typecheck.ml" 27 931 968
+type(
+  Expr.t
+)
+"src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 977
+type(
+  exn -> (Type.t, string) result
+)
+ident(
+  int_ref Core.raise "src/core_pervasives.mli" 16 610 610 "src/core_pervasives.mli" 16 610 649
+)
+"src/typecheck.ml" 27 931 978 "src/typecheck.ml" 27 931 991
+type(
+  exn
+)
+"src/typecheck.ml" 27 931 972 "src/typecheck.ml" 27 931 991
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 11 349 351 "src/typecheck.ml" 27 931 991
+type(
+  (Type.t, string) result
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 29 993 997 "src/typecheck.ml" 29 993 1006
+type(
+  Expr.t -> (Type.t, string) result
+)
+ident(
+  def typecheck "src/typecheck.ml" 31 1046 1046 "src/typecheck.ml" 1 0 -1
+)
+"src/typecheck.ml" 29 993 1007 "src/typecheck.ml" 29 993 1008
+type(
+  Expr.t
+)
+ident(
+  def t "src/typecheck.ml" 29 993 1011 "src/typecheck.ml" 29 993 1044
+)
+"src/typecheck.ml" 29 993 1011 "src/typecheck.ml" 29 993 1025
+type(
+  Type.t String.Map.t -> Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck_term "src/typecheck.ml" 10 255 263 "src/typecheck.ml" 10 255 277
+)
+"src/typecheck.ml" 29 993 1026 "src/typecheck.ml" 29 993 1042
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref Core.String.Map.empty "src/map_intf.ml" 1152 39465 39467 "src/map_intf.ml" 1152 39465 39492
+)
+"src/typecheck.ml" 29 993 1043 "src/typecheck.ml" 29 993 1044
+type(
+  Expr.t
+)
+ident(
+  int_ref t "src/typecheck.ml" 29 993 1007 "src/typecheck.ml" 29 993 1008
+)
+"src/typecheck.ml" 29 993 1011 "src/typecheck.ml" 29 993 1044
+call(
+  tail
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 31 1046 1050 "src/typecheck.ml" 31 1046 1062
+type(
+  unit -> unit
+)
+ident(
+  def inline_tests "src/typecheck.ml" 45 1495 1536 "src/typecheck.ml" 1 0 -1
+)
+"src/typecheck.ml" 31 1046 1063 "src/typecheck.ml" 31 1046 1065
+type(
+  unit
+)
+"src/typecheck.ml" 32 1068 1074 "src/typecheck.ml" 32 1068 1076
+type(
+  Expr.t
+)
+ident(
+  def e1 "src/typecheck.ml" 33 1121 1123 "src/typecheck.ml" 45 1495 1536
+)
+"src/typecheck.ml" 32 1068 1089 "src/typecheck.ml" 32 1068 1092
+type(
+  string
+)
+"src/typecheck.ml" 32 1068 1094 "src/typecheck.ml" 32 1068 1102
+type(
+  Type.t
+)
+"src/typecheck.ml" 32 1068 1113 "src/typecheck.ml" 32 1068 1116
+type(
+  string
+)
+"src/typecheck.ml" 32 1068 1104 "src/typecheck.ml" 32 1068 1116
+type(
+  Expr.t
+)
+"src/typecheck.ml" 32 1068 1079 "src/typecheck.ml" 32 1068 1117
+type(
+  Expr.t
+)
+"src/typecheck.ml" 33 1121 1131 "src/typecheck.ml" 33 1121 1140
+type(
+  Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typecheck.ml" 29 993 997 "src/typecheck.ml" 29 993 1006
+)
+"src/typecheck.ml" 33 1121 1141 "src/typecheck.ml" 33 1121 1143
+type(
+  Expr.t
+)
+ident(
+  int_ref e1 "src/typecheck.ml" 32 1068 1074 "src/typecheck.ml" 32 1068 1076
+)
+"src/typecheck.ml" 33 1121 1131 "src/typecheck.ml" 33 1121 1143
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 33 1121 1144 "src/typecheck.ml" 33 1121 1145
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/typecheck.ml" 33 1121 1157 "src/typecheck.ml" 33 1121 1165
+type(
+  Type.t
+)
+"src/typecheck.ml" 33 1121 1167 "src/typecheck.ml" 33 1121 1175
+type(
+  Type.t
+)
+"src/typecheck.ml" 33 1121 1148 "src/typecheck.ml" 33 1121 1177
+type(
+  Type.t
+)
+"src/typecheck.ml" 33 1121 1146 "src/typecheck.ml" 33 1121 1177
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 33 1121 1130 "src/typecheck.ml" 33 1121 1178
+type(
+  bool
+)
+"src/typecheck.ml" 33 1121 1123 "src/typecheck.ml" 33 1121 1178
+type(
+  unit
+)
+"src/typecheck.ml" 35 1181 1187 "src/typecheck.ml" 35 1181 1189
+type(
+  Expr.t
+)
+ident(
+  def e2 "src/typecheck.ml" 36 1234 1236 "src/typecheck.ml" 45 1495 1536
+)
+"src/typecheck.ml" 35 1181 1202 "src/typecheck.ml" 35 1181 1205
+type(
+  string
+)
+"src/typecheck.ml" 35 1181 1207 "src/typecheck.ml" 35 1181 1215
+type(
+  Type.t
+)
+"src/typecheck.ml" 35 1181 1226 "src/typecheck.ml" 35 1181 1229
+type(
+  string
+)
+"src/typecheck.ml" 35 1181 1217 "src/typecheck.ml" 35 1181 1229
+type(
+  Expr.t
+)
+"src/typecheck.ml" 35 1181 1192 "src/typecheck.ml" 35 1181 1230
+type(
+  Expr.t
+)
+"src/typecheck.ml" 36 1234 1244 "src/typecheck.ml" 36 1234 1259
+type(
+  (Type.t, string) result -> bool
+)
+ident(
+  int_ref Core.Result.is_error "src/result.mli" 56 1690 1690 "src/result.mli" 56 1690 1721
+)
+"src/typecheck.ml" 36 1234 1261 "src/typecheck.ml" 36 1234 1270
+type(
+  Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typecheck.ml" 29 993 997 "src/typecheck.ml" 29 993 1006
+)
+"src/typecheck.ml" 36 1234 1271 "src/typecheck.ml" 36 1234 1273
+type(
+  Expr.t
+)
+ident(
+  int_ref e2 "src/typecheck.ml" 35 1181 1187 "src/typecheck.ml" 35 1181 1189
+)
+"src/typecheck.ml" 36 1234 1260 "src/typecheck.ml" 36 1234 1274
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 36 1234 1243 "src/typecheck.ml" 36 1234 1275
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typecheck.ml" 36 1234 1236 "src/typecheck.ml" 36 1234 1275
+type(
+  unit
+)
+"src/typecheck.ml" 38 1278 1284 "src/typecheck.ml" 38 1278 1286
+type(
+  Expr.t
+)
+ident(
+  def t3 "src/typecheck.ml" 39 1318 1320 "src/typecheck.ml" 45 1495 1536
+)
+"src/typecheck.ml" 38 1278 1299 "src/typecheck.ml" 38 1278 1301
+type(
+  Expr.t
+)
+ident(
+  int_ref e1 "src/typecheck.ml" 32 1068 1074 "src/typecheck.ml" 32 1068 1076
+)
+"src/typecheck.ml" 38 1278 1312 "src/typecheck.ml" 38 1278 1313
+type(
+  int
+)
+"src/typecheck.ml" 38 1278 1303 "src/typecheck.ml" 38 1278 1313
+type(
+  Expr.t
+)
+"src/typecheck.ml" 38 1278 1289 "src/typecheck.ml" 38 1278 1314
+type(
+  Expr.t
+)
+"src/typecheck.ml" 39 1318 1328 "src/typecheck.ml" 39 1318 1337
+type(
+  Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typecheck.ml" 29 993 997 "src/typecheck.ml" 29 993 1006
+)
+"src/typecheck.ml" 39 1318 1338 "src/typecheck.ml" 39 1318 1340
+type(
+  Expr.t
+)
+ident(
+  int_ref t3 "src/typecheck.ml" 38 1278 1284 "src/typecheck.ml" 38 1278 1286
+)
+"src/typecheck.ml" 39 1318 1328 "src/typecheck.ml" 39 1318 1340
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 39 1318 1341 "src/typecheck.ml" 39 1318 1342
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/typecheck.ml" 39 1318 1345 "src/typecheck.ml" 39 1318 1355
+type(
+  Type.t
+)
+"src/typecheck.ml" 39 1318 1343 "src/typecheck.ml" 39 1318 1355
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 39 1318 1327 "src/typecheck.ml" 39 1318 1356
+type(
+  bool
+)
+"src/typecheck.ml" 39 1318 1320 "src/typecheck.ml" 39 1318 1356
+type(
+  unit
+)
+"src/typecheck.ml" 41 1359 1365 "src/typecheck.ml" 41 1359 1367
+type(
+  Expr.t
+)
+ident(
+  def t4 "src/typecheck.ml" 42 1399 1401 "src/typecheck.ml" 45 1495 1536
+)
+"src/typecheck.ml" 41 1359 1380 "src/typecheck.ml" 41 1359 1382
+type(
+  Expr.t
+)
+ident(
+  int_ref t3 "src/typecheck.ml" 38 1278 1284 "src/typecheck.ml" 38 1278 1286
+)
+"src/typecheck.ml" 41 1359 1393 "src/typecheck.ml" 41 1359 1394
+type(
+  int
+)
+"src/typecheck.ml" 41 1359 1384 "src/typecheck.ml" 41 1359 1394
+type(
+  Expr.t
+)
+"src/typecheck.ml" 41 1359 1370 "src/typecheck.ml" 41 1359 1395
+type(
+  Expr.t
+)
+"src/typecheck.ml" 42 1399 1409 "src/typecheck.ml" 42 1399 1424
+type(
+  (Type.t, string) result -> bool
+)
+ident(
+  int_ref Core.Result.is_error "src/result.mli" 56 1690 1690 "src/result.mli" 56 1690 1721
+)
+"src/typecheck.ml" 42 1399 1426 "src/typecheck.ml" 42 1399 1435
+type(
+  Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typecheck.ml" 29 993 997 "src/typecheck.ml" 29 993 1006
+)
+"src/typecheck.ml" 42 1399 1436 "src/typecheck.ml" 42 1399 1438
+type(
+  Expr.t
+)
+ident(
+  int_ref t4 "src/typecheck.ml" 41 1359 1365 "src/typecheck.ml" 41 1359 1367
+)
+"src/typecheck.ml" 42 1399 1425 "src/typecheck.ml" 42 1399 1439
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 42 1399 1408 "src/typecheck.ml" 42 1399 1440
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typecheck.ml" 42 1399 1401 "src/typecheck.ml" 42 1399 1440
+type(
+  unit
+)
+"src/typecheck.ml" 44 1443 1449 "src/typecheck.ml" 44 1443 1451
+type(
+  Expr.t
+)
+ident(
+  def t5 "src/typecheck.ml" 45 1495 1497 "src/typecheck.ml" 45 1495 1536
+)
+"src/typecheck.ml" 44 1443 1466 "src/typecheck.ml" 44 1443 1474
+type(
+  Expr.binop
+)
+"src/typecheck.ml" 44 1443 1485 "src/typecheck.ml" 44 1443 1486
+type(
+  int
+)
+"src/typecheck.ml" 44 1443 1476 "src/typecheck.ml" 44 1443 1486
+type(
+  Expr.t
+)
+"src/typecheck.ml" 44 1443 1488 "src/typecheck.ml" 44 1443 1490
+type(
+  Expr.t
+)
+ident(
+  int_ref e1 "src/typecheck.ml" 32 1068 1074 "src/typecheck.ml" 32 1068 1076
+)
+"src/typecheck.ml" 44 1443 1454 "src/typecheck.ml" 44 1443 1491
+type(
+  Expr.t
+)
+"src/typecheck.ml" 45 1495 1505 "src/typecheck.ml" 45 1495 1520
+type(
+  (Type.t, string) result -> bool
+)
+ident(
+  int_ref Core.Result.is_error "src/result.mli" 56 1690 1690 "src/result.mli" 56 1690 1721
+)
+"src/typecheck.ml" 45 1495 1522 "src/typecheck.ml" 45 1495 1531
+type(
+  Expr.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typecheck.ml" 29 993 997 "src/typecheck.ml" 29 993 1006
+)
+"src/typecheck.ml" 45 1495 1532 "src/typecheck.ml" 45 1495 1534
+type(
+  Expr.t
+)
+ident(
+  int_ref t5 "src/typecheck.ml" 44 1443 1449 "src/typecheck.ml" 44 1443 1451
+)
+"src/typecheck.ml" 45 1495 1521 "src/typecheck.ml" 45 1495 1535
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typecheck.ml" 45 1495 1504 "src/typecheck.ml" 45 1495 1536
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typecheck.ml" 45 1495 1497 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 44 1443 1445 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 42 1399 1401 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 41 1359 1361 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 39 1318 1320 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 38 1278 1280 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 36 1234 1236 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 35 1181 1183 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 33 1121 1123 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
+"src/typecheck.ml" 32 1068 1070 "src/typecheck.ml" 45 1495 1536
+type(
+  unit
+)
